@@ -1,0 +1,5 @@
+export * from "./events.routes.js"
+export * from "./tickets.routes.js"
+export * from "./users.routes.js"
+export * from "./orders.routes.js"
+export * from "./payments.routes.js"
