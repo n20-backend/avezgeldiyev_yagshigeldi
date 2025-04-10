@@ -6,6 +6,10 @@ import db from "./config/db.js";
 const app = express();
 app.use(express.json());
 
+app.get("/", (req, res) => {
+    res.send("Assalomu aleykum!");
+});
+
 app.use("/events", eventsRoutes);
 app.use("/tickets", ticketRoutes);
 app.use("/users", userRoutes);
